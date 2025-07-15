@@ -1,0 +1,11 @@
+Hardware
+KK20 oil press
+PV simulator
+esp32
+
+
+Software
+Matlab
+Simulink
+Arduino
+Thingspeak
