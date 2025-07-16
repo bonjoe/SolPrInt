@@ -20,7 +20,7 @@ SolPrInt/
 ### Hardware
 - Mechanical oil press equipped with VFD
 - PV simulator - Victron MPPT, Victron inverter, GX monitoring
-- esp32, motor, oled screen
+- ESP32, step Motor 28BYJ-48, Joy-it 1.3" ST7789 display
 
 ### Software
 - Matlab
