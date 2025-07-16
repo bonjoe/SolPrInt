@@ -19,18 +19,18 @@ SolPrInt/
 
 ##  requirements
 ### Hardware
-Mechanical oil press equipped with VFD
-PV simulator - Victron MPPT, Victron inverter, GX monitoring
-esp32, motor, oled screen
+- Mechanical oil press equipped with VFD
+- PV simulator - Victron MPPT, Victron inverter, GX monitoring
+- esp32, motor, oled screen
 
 ### Software
-Matlab
-Simulink
-Arduino
-Thingspeak
+- Matlab
+- Simulink
+- Arduino
+- Thingspeak
+
 
 ##  Getting started
-
 
 ### 1. Train RL agent in MATLAB
 
