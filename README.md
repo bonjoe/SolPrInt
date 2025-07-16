@@ -29,10 +29,8 @@ SolPrInt/
 
 ##  Getting started
 
-### 1. Train RL agent in MATLAB
-
-### 2. Deploy agent to ESP32
-
+-  1. Train RL agent in MATLAB
+-  2. Deploy agent to ESP32
 
 
 
