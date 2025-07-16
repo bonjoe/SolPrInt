@@ -2,7 +2,6 @@
 
 SolPrInt is a RL agent to control oil extraction in rural, off-grid contexts. A policy trained with 15 years of solar irradiance data is embedded into an ESP32-based controller driving a mechanical press powered by standalone photovoltaics.
 
----
 
 ## Project structure
 
@@ -14,7 +13,6 @@ SolPrInt/
 └── README.md               ← Project overview (this file)
 ```
 
----
 
 ##  requirements
 ### Hardware
