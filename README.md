@@ -11,7 +11,6 @@ SolPrInt/
 ├── arduino_agent/          ← ESP32 : RL agent + motor/display control
 ├── matlab_training/        ← MATLAB PPO training + export ANN to C
 ├── simulink_model/         ← Model for simulation
-├── requirements.txt        ← requirements
 └── README.md               ← Project overview (this file)
 ```
 
@@ -38,22 +37,6 @@ SolPrInt/
 
 
 
-## Agent overview
-
-- **State vector (7D)**: hour, month, PV power, press power, SoC, weekly irradiance, previous action
-- **Actions**: Discrete speed values [0, 10, ..., 70 rpm]
-- **Reward**: Penalizes interruptions and favors continuous desirable output
-
----
-
-## Simulation model
-
-- Simulink model includes PV system, oil press model, environment and reward
-- Simulation outputs used to train and validate RL agent
-- Pre-logged dataset `trainingData.mat` included
-
-
----
 
 ## License
 
