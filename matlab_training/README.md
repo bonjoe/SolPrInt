@@ -15,6 +15,17 @@ This folder contains all MATLAB scripts used to train the RL agent deployed in S
 - MATLAB R2024a
 - Reinforcement Learning Toolbox
 - Simulink
-- ~4 hours on an NVIDIA RTX 4090 for full training
-- Weather data in `trainingData.mat`
+
+## Agent overview
+
+- **State vector (7D)**: hour, month, PV power, press power, SoC, weekly irradiance, previous action
+- **Actions**: Discrete speed values [0, 10, ..., 70 rpm]
+- **Reward**: Penalizes interruptions and favors continuous desirable output
+
+
+## Simulation model
+
+- Simulink model includes PV system, oil press model, environment and reward
+- Simulation outputs used to train and validate RL agent
+- Pre-logged dataset `trainingData.mat` included
 
