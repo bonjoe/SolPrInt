@@ -1,6 +1,6 @@
-# SolPrInt – Reinforcement Learning Control of a Standalone PV Oil Press
+# SolPrInt
 
-SolPrInt is a RL agent to optimize oil extraction in rural, off-grid contexts. A policy trained with 15 years of solar irradiance data is embedded into an ESP32-based controller driving a mechanical press powered by standalone photovoltaics.
+SolPrInt is a RL agent to control oil extraction in rural, off-grid contexts. A policy trained with 15 years of solar irradiance data is embedded into an ESP32-based controller driving a mechanical press powered by standalone photovoltaics.
 
 ---
 
@@ -17,18 +17,12 @@ SolPrInt/
 
 ---
 
-## 🚀 Getting started
+##  Getting started
 
-### 1. Clone the repository
 
-```bash
-git clone https://github.com/<user>/SolPrInt.git
-cd SolPrInt
-```
+### 1. Train RL agent in MATLAB
 
-### 2. Train RL agent in MATLAB
-
-### 3. Deploy agent to ESP32
+### 2. Deploy agent to ESP32
 
 
 
